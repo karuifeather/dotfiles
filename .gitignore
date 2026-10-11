@@ -1,0 +1,18 @@
+# VS Code: track only portable user configuration
+/vscode/.config/Code/*
+!/vscode/.config/Code/User/
+/vscode/.config/Code/User/*
+!/vscode/.config/Code/User/settings.json
+!/vscode/.config/Code/User/keybindings.json
+!/vscode/.config/Code/User/snippets/
+
+# General OS/editor artifacts
+.DS_Store
+*~
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
