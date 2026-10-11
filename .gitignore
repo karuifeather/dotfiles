@@ -6,6 +6,19 @@
 !/vscode/.config/Code/User/keybindings.json
 !/vscode/.config/Code/User/snippets/
 
+# Keep VS Code application data out of the repository even when the local
+# Code directory is inspected or copied into this Stow package.
+/vscode/.config/Code/Cache/
+/vscode/.config/Code/CachedData/
+/vscode/.config/Code/CachedExtensions/
+/vscode/.config/Code/Cookies/
+/vscode/.config/Code/History/
+/vscode/.config/Code/Local Storage/
+/vscode/.config/Code/logs/
+/vscode/.config/Code/User/globalStorage/
+/vscode/.config/Code/User/history/
+/vscode/.config/Code/User/workspaceStorage/
+
 # General OS/editor artifacts
 .DS_Store
 *~
