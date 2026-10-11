@@ -19,6 +19,8 @@ alias code='tmux new -A -s code'
 alias dev='tmux new -A -s dev'
 alias cls='clear'
 
+alias md='glow -p'
+
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
 
